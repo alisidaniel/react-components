@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowUp, Home, Paperclip, FileSystem, Cast } from "react-feather";
+import { ArrowDown, ArrowUp, Home, Paperclip, BarChart, Cast } from "react-feather";
 
 export const SidebarData = [
     {
@@ -25,12 +25,12 @@ export const SidebarData = [
             {
                 title: 'Revenue 1',
                 path: '/revenue-1',
-                icon: <FileSystem/>
+                icon: <BarChart/>
             },
             {
                 title: 'Revenue 2',
                 path: '/revenue-2',
-                icon: <FileSystem/>
+                icon: <BarChart/>
             }
         ]
     },
